@@ -2,5 +2,8 @@
 <resources>
 	<string name="app_name">Turing &amp; Zuse</string>
 	<string name="action_settings">Settings</string>
-	<string name="hello_world">Hello world!</string>
+	<string name="alan_turing">Alan Turing</string>
+	<string name="konrad_zuse">Konrad Zuse</string>
+	<string name="turing_text">Alan Mathison Turing, OBE, FRS (23 June 1912 – 7 June 1954), was a British mathematician, logician, cryptanalyst, and computer scientist. He was highly influential in the development of computer science, giving a formalisation of the concepts of &quot;algorithm&quot; and &quot;computation&quot; with the Turing machine, which can be considered a model of a general purpose computer. Turing is widely considered to be the father of computer science and artificial intelligence.</string>
+	<string name="zuse_text">Konrad Zuse (22 June 1910 – 18 December 1995) was a German civil engineer, inventor and computer pioneer. His greatest achievement was the world\'s first functional program-controlled Turing-complete computer, the Z3, which became operational in May 1941. Thanks to this machine and its predecessors, Zuse is often regarded as the inventor of the computer.</string>
 </resources>

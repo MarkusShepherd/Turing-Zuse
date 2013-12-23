@@ -8,34 +8,34 @@
 	android:paddingTop="@dimen/activity_vertical_margin"
 	tools:context=".MainActivity" >
 	<TextView
-		android:id="@+id/person_1_name"
+		android:id="@+id/person_2_name"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_centerHorizontal="true"
 		android:paddingBottom="8dp"
-		android:text="@string/alan_turing"
+		android:text="@string/konrad_zuse"
 		android:textSize="24sp" />
 	<ScrollView
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:layout_below="@id/person_1_name" >
+		android:layout_below="@id/person_2_name" >
 		<RelativeLayout
+			android:id="@+id/person_2_scroll"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content" >
 			<ImageView
-				android:id="@+id/person_1_image"
+				android:id="@+id/person_2_image"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_centerHorizontal="true"
-				android:contentDescription="@string/alan_turing"
-				android:paddingBottom="8dp"
+				android:contentDescription="@string/konrad_zuse"
+				android:paddingRight="8dp"
 				android:scaleType="center"
-				android:src="@drawable/turing" />
+				android:src="@drawable/zuse" />
 			<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_below="@id/person_1_image"
-				android:text="@string/turing_text" />
+				android:layout_toRightOf="@id/person_2_image"
+				android:text="@string/zuse_text" />
 		</RelativeLayout>
 	</ScrollView>
 </RelativeLayout>
