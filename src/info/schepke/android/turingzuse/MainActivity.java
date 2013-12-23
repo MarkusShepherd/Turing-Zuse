@@ -2,6 +2,7 @@ package info.schepke.android.turingzuse;
 
 import android.app.Activity;
 import android.os.Bundle;
+import info.riemannhypothesis.android.turingzuse.R;
 
 public class MainActivity extends Activity {
 
