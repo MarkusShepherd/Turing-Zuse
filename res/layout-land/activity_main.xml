@@ -14,7 +14,7 @@
 		android:layout_centerHorizontal="true"
 		android:paddingBottom="8dp"
 		android:text="@string/konrad_zuse"
-		android:textSize="24sp" />
+		android:textSize="30sp" />
 	<ScrollView
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
@@ -35,7 +35,8 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_toRightOf="@id/person_2_image"
-				android:text="@string/zuse_text" />
+				android:text="@string/zuse_text"
+				android:textSize="22sp" />
 		</RelativeLayout>
 	</ScrollView>
 </RelativeLayout>
